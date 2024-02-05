@@ -4,7 +4,7 @@ import stripe
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
-stripe.api_key = "STRIPE_SECRET_KEY
+stripe.api_key = "STRIPE_SECRET_KEY"
 ###############################################################################
 ########################### X-Frame-Options for Vulnerabilities ###############
 ###############################################################################
