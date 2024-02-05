@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+        <!-- Including the navbar -->
+        {% include 'navbar.html' %}
+
+    <h1>Register</h1>
+    <form action="{{ url_for('register') }}" method="post">
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
