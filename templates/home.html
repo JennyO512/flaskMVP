@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <!-- Including the navbar -->
+    {% include 'navbar.html' %}
+
+
+    <h1>Welcome to the Home Page</h1>
+    <a href="{{ url_for('register') }}">Register</a>
+    <a href="{{ url_for('login') }}">Login</a>
+</body>
+</html>
